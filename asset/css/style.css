@@ -1,7 +1,6 @@
 /*
 Project:    K T Web Solutions
 Version:    1.0
-Last change:    16/11/20 [fixed Float bug, vf]
 Author Name: K T Web Solutions
 Primary use:    Official Site
 */
@@ -67,7 +66,7 @@ button.nav-button{
 /* Header Banner Area Styles */
 
 .container.header-content {
-   padding: 80px; height: 600px;
+   padding: 80px; height: 550px;
 }
 .highlight{
     color: #FFBA00;
@@ -113,7 +112,7 @@ button.nav-button{
 
 .process-block {
     text-align: center;
-    padding: 10px;
+    padding-top: 10px;
 }
 
 .process-block img {
@@ -515,10 +514,11 @@ section.footer.section-padding {
 
   /* Service Page Styles  */
 
-/*   
+ 
 section.services {
     text-align: center;
 }
+/*  
 .card-row-gap {
     padding-bottom: 2rem;
 }

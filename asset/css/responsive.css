@@ -1,5 +1,17 @@
 
 /* Project Page  */
+@media only screen and (max-width: 576px) { 
+ 
+  .container.header-content {
+  padding-bottom: 8px; height: 900px;
+}
+.about.right-content {display: none;}
+
+}
+
+.container.header-content {
+  padding: 8px; height: 550px;
+}
 @media only screen and (max-width: 576px) {
     
     .left-content h2{
@@ -21,6 +33,7 @@
     .testimonial-description h3{
         font-size: 35px;
     }
+    
   }
   @media only screen and (max-width: 1200px){
     .coma{
@@ -34,6 +47,7 @@
     a.carousel-control-next.testimonial-control{
         top: 85%;
         margin-left: 20px;
+       
     }
   }
   @media only screen and (max-width: 767px){
@@ -43,6 +57,10 @@
       .client-picture img.coma{
           top:55%;
           left: 5%;
+          display: none;
+      }
+      .container.header-content {
+        padding: 8px; height: 700px;
       }
   }
 
@@ -85,4 +103,6 @@
 	  .contact-header .right-content img{
 		  width:70% !important;
 	  }
+    .right-content {padding: 20px;}
+  
   }
